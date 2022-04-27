@@ -1,0 +1,39 @@
+{
+  "name": "html-webpack-asset-tag-alter-plugin",
+  "version": "1.0.0",
+  "description": "html asset tag alter base on html-webpack-plugin.",
+  "main": "dist/index.js",
+  "directories": {
+    "app": "app"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --config ./build/webpack.conf.js",
+    "test": "cross-env NODE_ENV=production webpack --config ./app/webpack.conf.js",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "webpack",
+    "html-webpack-plugin",
+    "asset",
+    "tag",
+    "plugin",
+    "html",
+    "javascript",
+    "react",
+    "vue"
+  ],
+  "author": "duke",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yalhu/html-webpack-asset-tag-alter-plugin"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^4.5.2"
+  }
+}
