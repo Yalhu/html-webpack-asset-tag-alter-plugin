@@ -1,12 +1,14 @@
 
 # htmlWebpackAssetTagAlterPlugin
 This package extends the html-webpack-plugin. It alter asset tags attribute. For example, adding `id`, `onerror` and any other attribute for some reason.
+
 The result will be like: `<script src="//app.domain.com/js/app.js" id="appjs" onerror="__reloadResource(this)"></script>`
 
 
 ## Installation
 `npm i html-webpack-plugin@4 html-webpack-asset-tag-alter-plugin`
-note: `html-webpack-plugin` is also required.
+
+Note: `html-webpack-plugin` is also required.
 ## Basic Usage
 ```js
 {
